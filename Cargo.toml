@@ -1,0 +1,13 @@
+[package]
+name = "vs-rust-codium"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+winit = "0.29"
+wgpu = "0.19"
+pollster = "0.3"
+ropey = "1.6"
+glyphon = "0.5"
+tree-sitter = "0.20"
+tree-sitter-rust = "0.20"
