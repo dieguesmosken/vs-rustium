@@ -9,6 +9,10 @@ on:
       - ".github/workflows/pages.yml"
   workflow_dispatch:
 
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
 permissions:
   contents: read
 
