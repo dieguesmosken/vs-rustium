@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">VS Rust Codium</title>
+  <desc id="desc">A code-editor mark with teal brackets and an orange spark.</desc>
+  <defs>
+    <linearGradient id="background" x1="14" y1="8" x2="114" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1b2b39"/>
+      <stop offset="1" stop-color="#111820"/>
+    </linearGradient>
+    <linearGradient id="spark" x1="76" y1="29" x2="52" y2="98" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffc078"/>
+      <stop offset="1" stop-color="#ed7957"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="120" height="120" rx="29" fill="url(#background)" stroke="#354655" stroke-width="2"/>
+  <path d="m43 39-22 25 22 25" fill="none" stroke="#6de0d1" stroke-linecap="round" stroke-linejoin="round" stroke-width="9"/>
+  <path d="m85 39 22 25-22 25" fill="none" stroke="#6de0d1" stroke-linecap="round" stroke-linejoin="round" stroke-width="9"/>
+  <path d="m72 29-20 39h15l-7 31 27-43H70l2-27Z" fill="url(#spark)" stroke="#10151f" stroke-linejoin="round" stroke-width="3"/>
+</svg>
