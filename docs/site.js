@@ -1,8 +1,8 @@
 const translations = {
   pt: {
-    pageTitle: "VS Rust Codium 0.1.0 — editor de código em Rust",
+    pageTitle: "VS Rustium 0.1.0 — editor de código em Rust",
     pageDescription:
-      "Conheça o VS Rust Codium 0.1.0, um editor de código escrito em Rust. Baixe para Windows, Linux ou macOS e ajude a construir o projeto.",
+      "Conheça o VS Rustium 0.1.0, um editor de código escrito em Rust. Baixe para Windows, Linux ou macOS e ajude a construir o projeto.",
     navLabel: "Navegação principal",
     navFeatures: "Recursos",
     navDownload: "Baixar",
@@ -17,7 +17,7 @@ const translations = {
     heroSecondary: "Ver código-fonte",
     heroNote: "Código aberto · Rust · Windows, Linux e macOS",
     previewLabel: "Prévia ilustrativa do editor",
-    previewStatus: "VS Rust Codium · Rust",
+    previewStatus: "VS Rustium · Rust",
     featuresEyebrow: "Ferramentas para o dia a dia",
     featuresTitle: "Uma base sólida para começar a programar.",
     featuresIntro:
@@ -31,7 +31,7 @@ const translations = {
     releaseTitle: "Abra e salve arquivos",
     releaseBody: "Abra um arquivo pelo terminal e salve suas alterações com Ctrl+S.",
     downloadEyebrow: "Primeira versão pública",
-    downloadTitle: "Baixe o VS Rust Codium 0.1.0.",
+    downloadTitle: "Baixe o VS Rustium 0.1.0.",
     downloadIntro: "Escolha seu sistema operacional e comece a experimentar o editor.",
     windowsDetails: "Pacote ZIP · x86_64",
     linuxDetails: "Arquivo tar.gz",
@@ -57,9 +57,9 @@ const translations = {
     footerNote: "Código aberto, feito para crescer com a comunidade.",
   },
   en: {
-    pageTitle: "VS Rust Codium 0.1.0 — a code editor in Rust",
+    pageTitle: "VS Rustium 0.1.0 — a code editor in Rust",
     pageDescription:
-      "Meet VS Rust Codium 0.1.0, a code editor written in Rust. Download it for Windows, Linux, or macOS and help build the project.",
+      "Meet VS Rustium 0.1.0, a code editor written in Rust. Download it for Windows, Linux, or macOS and help build the project.",
     navLabel: "Main navigation",
     navFeatures: "Features",
     navDownload: "Download",
@@ -74,7 +74,7 @@ const translations = {
     heroSecondary: "View source code",
     heroNote: "Open source · Rust · Windows, Linux, and macOS",
     previewLabel: "Illustrative editor preview",
-    previewStatus: "VS Rust Codium · Rust",
+    previewStatus: "VS Rustium · Rust",
     featuresEyebrow: "Tools for everyday coding",
     featuresTitle: "A solid foundation to start coding.",
     featuresIntro:
@@ -88,7 +88,7 @@ const translations = {
     releaseTitle: "Open and save files",
     releaseBody: "Open a file from the terminal and save your changes with Ctrl+S.",
     downloadEyebrow: "First public release",
-    downloadTitle: "Download VS Rust Codium 0.1.0.",
+    downloadTitle: "Download VS Rustium 0.1.0.",
     downloadIntro: "Choose your operating system and start trying the editor.",
     windowsDetails: "ZIP package · x86_64",
     linuxDetails: "tar.gz archive",
@@ -114,9 +114,9 @@ const translations = {
     footerNote: "Open source, built to grow with the community.",
   },
   es: {
-    pageTitle: "VS Rust Codium 0.1.0 — editor de código en Rust",
+    pageTitle: "VS Rustium 0.1.0 — editor de código en Rust",
     pageDescription:
-      "Conoce VS Rust Codium 0.1.0, un editor de código escrito en Rust. Descárgalo para Windows, Linux o macOS y ayuda a construir el proyecto.",
+      "Conoce VS Rustium 0.1.0, un editor de código escrito en Rust. Descárgalo para Windows, Linux o macOS y ayuda a construir el proyecto.",
     navLabel: "Navegación principal",
     navFeatures: "Funciones",
     navDownload: "Descargar",
@@ -131,7 +131,7 @@ const translations = {
     heroSecondary: "Ver código fuente",
     heroNote: "Código abierto · Rust · Windows, Linux y macOS",
     previewLabel: "Vista ilustrativa del editor",
-    previewStatus: "VS Rust Codium · Rust",
+    previewStatus: "VS Rustium · Rust",
     featuresEyebrow: "Herramientas para el día a día",
     featuresTitle: "Una base sólida para empezar a programar.",
     featuresIntro:
@@ -145,7 +145,7 @@ const translations = {
     releaseTitle: "Abre y guarda archivos",
     releaseBody: "Abre un archivo desde la terminal y guarda los cambios con Ctrl+S.",
     downloadEyebrow: "Primera versión pública",
-    downloadTitle: "Descarga VS Rust Codium 0.1.0.",
+    downloadTitle: "Descarga VS Rustium 0.1.0.",
     downloadIntro: "Elige tu sistema operativo y empieza a probar el editor.",
     windowsDetails: "Paquete ZIP · x86_64",
     linuxDetails: "Archivo tar.gz",

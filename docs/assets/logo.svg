@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
-  <title id="title">VS Rust Codium</title>
+  <title id="title">VS Rustium</title>
   <desc id="desc">A code-editor mark with teal brackets and an orange spark.</desc>
   <defs>
     <linearGradient id="background" x1="14" y1="8" x2="114" y2="120" gradientUnits="userSpaceOnUse">

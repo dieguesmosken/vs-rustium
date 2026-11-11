@@ -164,7 +164,7 @@ impl EditorState {
             .unwrap_or_else(|| "Untitled".into());
         let marker = if self.modified { " •" } else { "" };
         self.window
-            .set_title(&format!("{name}{marker} - VS Rust Codium"));
+            .set_title(&format!("{name}{marker} - VS Rustium"));
     }
 
     fn save(&mut self) {
@@ -502,7 +502,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
             Err(error) => return Err(error.into()),
         },
         None => String::from(
-            "// VS Rust Codium - Tree-sitter Syntax Highlighting\n\
+            "// VS Rustium - Tree-sitter Syntax Highlighting\n\
              use std::collections::HashMap;\n\
              \n\
              fn main() {\n\
@@ -518,7 +518,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     let event_loop = EventLoop::new().unwrap();
     let window = Arc::new(
         WindowBuilder::new()
-            .with_title("VS Rust Codium")
+            .with_title("VS Rustium")
             .with_inner_size(winit::dpi::LogicalSize::new(1024, 768))
             .build(&event_loop)
             .unwrap(),

@@ -50,17 +50,17 @@ jobs:
       - name: Package Windows binary
         if: runner.os == 'Windows'
         shell: pwsh
-        run: Compress-Archive -Path target/release/vs-rust-codium.exe -DestinationPath vs-rust-codium-windows-x86_64.zip
+        run: Compress-Archive -Path target/release/vs-rustium.exe -DestinationPath vs-rustium-windows-x86_64.zip
 
       - name: Package Unix binary
         if: runner.os != 'Windows'
-        run: tar -czf vs-rust-codium-${{ runner.os }}.tar.gz -C target/release vs-rust-codium
+        run: tar -czf vs-rustium-${{ runner.os }}.tar.gz -C target/release vs-rustium
 
       - name: Upload release package
         uses: actions/upload-artifact@v4
         with:
           name: package-${{ runner.os }}
-          path: vs-rust-codium-*
+          path: vs-rustium-*
           if-no-files-found: error
 
   publish:
